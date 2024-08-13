@@ -10,7 +10,7 @@ This project is an Opitical Character Recognition Application using Tesseract.js
           target="_blank"
           rel="noopener noreferrer"
         >
-          OpenReplay{" "}
+          OpenReplay
         </a>
         article and for pratical purpose.
         <a
