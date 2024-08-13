@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ifechukwuobiezue/ocr-app.git/static/css/main.65ba70d2.css",
-    "main.js": "/ifechukwuobiezue/ocr-app.git/static/js/main.c1a67ba2.js",
-    "static/js/453.c70eb90d.chunk.js": "/ifechukwuobiezue/ocr-app.git/static/js/453.c70eb90d.chunk.js",
-    "index.html": "/ifechukwuobiezue/ocr-app.git/index.html",
-    "main.65ba70d2.css.map": "/ifechukwuobiezue/ocr-app.git/static/css/main.65ba70d2.css.map",
-    "main.c1a67ba2.js.map": "/ifechukwuobiezue/ocr-app.git/static/js/main.c1a67ba2.js.map",
-    "453.c70eb90d.chunk.js.map": "/ifechukwuobiezue/ocr-app.git/static/js/453.c70eb90d.chunk.js.map"
+    "main.css": "/ocr-app/static/css/main.65ba70d2.css",
+    "main.js": "/ocr-app/static/js/main.21483689.js",
+    "static/js/453.c70eb90d.chunk.js": "/ocr-app/static/js/453.c70eb90d.chunk.js",
+    "index.html": "/ocr-app/index.html",
+    "main.65ba70d2.css.map": "/ocr-app/static/css/main.65ba70d2.css.map",
+    "main.21483689.js.map": "/ocr-app/static/js/main.21483689.js.map",
+    "453.c70eb90d.chunk.js.map": "/ocr-app/static/js/453.c70eb90d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65ba70d2.css",
-    "static/js/main.c1a67ba2.js"
+    "static/js/main.21483689.js"
   ]
 }
