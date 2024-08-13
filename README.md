@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## About the Project
 
-This project is an Opitical Character Recognition Application using Tesseract.js, created for{" "}
+This project is an Opitical Character Recognition Application using Tesseract.js, created for
         <a
           href="https://blog.openreplay.com/"
           target="_blank"
