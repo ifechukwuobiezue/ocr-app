@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { createWorker } from "tesseract.js";
 
 function Upload() {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -9,11 +10,26 @@ function Upload() {
   const handleImageChange = (event) => {
     // You can console.log
     const file = event.target.files[0];
-    setSelectedImage({
-      file: file,
-      preview: URL.createObjectURL(file),
-    });
+    selectedImage(event.target.files[0]);
+    // setSelectedImage({
+    //   file: file,
+    //   preview: URL.createObjectURL(file),
+    // });
   };
+
+  const worker = createWorker();
+
+  const convertImageToText = async () => {
+    await worker.load();
+    await worker.loadLanguage("eng");
+    await worker.initialize("eng");
+    const { data } = await worker.recognize(SelectedImage);
+    console.log(data);
+  };
+
+  useEffect(() => {
+    convertImageToText();
+  }, [selectedImage]);
 
   return (
     <div>

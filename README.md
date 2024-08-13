@@ -16,15 +16,13 @@ Use the tesseract library to extract text from the uploaded image
 Preview the uploaded image
 Display the extracted text on the screen
 Add a copy button to clipboard in the output screen
-Add a button to download the extracted text as a text file
-Add a button to clear the uploaded image and extracted text
+Add a button to clear the uploaded image and extracted text (refresh button)
 Add a button to upload a new image
 Add a loading animation while the image is being processed
 Add a error handling for the image upload and text extraction process
 Add a success message when the text extraction is sucessful
 Add a warning message when the image is
 not uploaded or the text extraction fails
-Add a info message when the image is uploaded but no text is extracted
 Add a button to go back to the upload screen
 
 ## Available Scripts
