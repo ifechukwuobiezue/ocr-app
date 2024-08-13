@@ -4,26 +4,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## About the Project
 
-This project is a simple React application that has a button to scan an upload images that contain text and extact it.
-
-## Steps that will be Taken to achieve this project
-
-Create react app
-Install the tessract
-Create a component to handle image upload
-Create a component to scan images
-Use the tesseract library to extract text from the uploaded image
-Preview the uploaded image
-Display the extracted text on the screen
-Add a copy button to clipboard in the output screen
-Add a button to clear the uploaded image and extracted text (refresh button)
-Add a button to upload a new image
-Add a loading animation while the image is being processed
-Add a error handling for the image upload and text extraction process
-Add a success message when the text extraction is sucessful
-Add a warning message when the image is
-not uploaded or the text extraction fails
-Add a button to go back to the upload screen
+This project is an Opitical Character Recognition Application using Tesseract.js
+This app was created for{" "}
+        <a
+          href="https://blog.openreplay.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          OpenReplay{" "}
+        </a>
+        article and for pratical purpose.
+        <a
+          href="https://blog.openreplay.com/authors/ifechukwu-obiezue/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
 
 ## Available Scripts
 
